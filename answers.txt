@@ -1,0 +1,23 @@
+Bug#A:
+
+We are using item incorrectly. renderItem receives an object containing the actual item, so item.title is undefined.
+
+Result:
+The course titles will not show on the screen.
+
+Corrected line:
+renderItem={({ item }) => <Text>{item.title}</Text>}
+
+
+
+Bug#B:
+
+useEffect has no dependency Array,so it runs after every render and may repeatedly load courses which causes repeated fetching and re-rendering which may occur.
+
+Result:
+The courses may keep loading again and again.
+
+Corrected line:
+useEffect(() => {
+  loadCourses().then(setCourses);
+}, []);

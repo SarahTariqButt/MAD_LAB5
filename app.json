@@ -1,0 +1,24 @@
+{
+  "expo": {
+    "name": "PUCIT RN Starter",
+    "slug": "pucit-rn-starter",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#F7F8FA"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "pk.edu.pucit.rnstarter"
+    },
+    "android": {
+      "package": "edu.pucit.rnstarter",
+      "adaptiveIcon": {
+        "backgroundColor": "#F7F8FA"
+      }
+    }
+  }
+}

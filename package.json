@@ -1,0 +1,20 @@
+{
+  "name": "pucit-rn-starter",
+  "version": "1.0.0",
+  "main": "expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "tunnel": "expo start --tunnel"
+  },
+  "dependencies": {
+    "expo": "~57.0.26",
+    "expo-status-bar": "~57.0.1",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "react-native": "0.86.3",
+    "react-native-web": "^0.21.2"
+  },
+  "private": true
+}
